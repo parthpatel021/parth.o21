@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 // const resend = new Resend(process.env.RESEND_KEY);
 
-const wait = (n) => new Promise((resolve) => setTimeout(resolve, n));
+const wait = () => new Promise((resolve) => setTimeout(resolve, 3000));
 export async function POST(req: Request) {
     const { name, email, message } = await req.json();
     // await resend.sendEmail({
@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     //     text: JSON.stringify({ name, email, message }),
     // });
 
-    await wait(3000);
+    await wait();
 
     return NextResponse.json({
         status: 'ok',
