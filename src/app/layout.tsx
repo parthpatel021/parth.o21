@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
     title: 'Parth Patel',
-    description: "Parth's portfolio: Where creativity meets innovation, one project at a time.",
+    description: "One project at a time.",
 };
 
 export default function RootLayout({
