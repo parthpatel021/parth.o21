@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import {
   Code,
+  FileText,
   Flame,
   Github,
   Home,
@@ -41,6 +42,9 @@ const Menu: FC<MenuProps> = ({ }) => {
       </List>
       <List link="#skills" effect="slideUp">
         <Code /> Skills
+      </List>
+      <List link="https://drive.google.com/file/d/1r7p7dqJ5bfE1Q2FwfmwQmRR5RB52uxYm/view?usp=drive_link" effect="slideUp">
+        <FileText /> Resume
       </List>
       {/* <List link="https://www.instagram.com/ezsnippet/" effect="slideUp">
         <Video /> Videos
