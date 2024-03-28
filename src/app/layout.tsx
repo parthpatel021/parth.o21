@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
     title: 'Parth Patel',
-    description: "One project at a time.",
+    description: "One Problem at a time.",
 };
 
 export default function RootLayout({
